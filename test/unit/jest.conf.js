@@ -5,7 +5,7 @@ module.exports = {
     testURL: 'http://localhost/',
     testEnvironment: 'jsdom',
     rootDir: path.resolve(__dirname, '../../'),
-    roots: ['<rootDir>/test'],
+    roots: ['<rootDir>/test', '<rootDir>/src'],
     moduleFileExtensions: [
         'js',
         'json',
